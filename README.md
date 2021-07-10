@@ -1,2 +1,2 @@
-# todo-app-client
+# ToDo App Client
 ToDo App's client-side code.
