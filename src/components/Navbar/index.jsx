@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useHistory, useLocation } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import decode from "jwt-decode";
+// import decode from "jwt-decode";
 // Material UI
 import { AppBar, Avatar, Box, Button, Divider, IconButton, Popover, Toolbar, Tooltip, Typography } from "@material-ui/core";
 import { AccountCircle, Menu as MenuIcon } from "@material-ui/icons";
@@ -18,11 +18,11 @@ const Index = () => {
   const classes = useStyles();
 
   useEffect(() => {
-    const token = user?.token;
-    if (token) {
-      const decodedToken = decode(token);
-      if (decodedToken.exp * 1000 < new Date().getTime()) logout();
-    }
+    // const token = user?.token;
+    // if (token) {
+    //   const decodedToken = decode(token);
+    //   if (decodedToken.exp * 1000 < new Date().getTime()) logout();
+    // }
     setUser(JSON.parse(localStorage.getItem("profile")));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
