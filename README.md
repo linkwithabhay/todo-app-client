@@ -20,7 +20,9 @@ ToDo App's client-side code.
 
 ## Dependencies
 
+- ![GitHub package.json @fortawesome/fontawesome-free dependency version](https://img.shields.io/github/package-json/dependency-version/linkwithabhay/todo-app-client/@fortawesome/fontawesome-free)
 - ![GitHub package.json @material-ui/core dependency version](https://img.shields.io/github/package-json/dependency-version/linkwithabhay/todo-app-client/@material-ui/core)
+- ![GitHub package.json @material-ui/lab dependency version](https://img.shields.io/github/package-json/dependency-version/linkwithabhay/todo-app-client/@material-ui/lab)
 - ![GitHub package.json @material-ui/icons dependency version](https://img.shields.io/github/package-json/dependency-version/linkwithabhay/todo-app-client/@material-ui/icons)
 - ![GitHub package.json axios dependency version](https://img.shields.io/github/package-json/dependency-version/linkwithabhay/todo-app-client/axios?logo=axios)
 - ![GitHub package.json jwt-decode dependency version](https://img.shields.io/github/package-json/dependency-version/linkwithabhay/todo-app-client/jwt-decode)
