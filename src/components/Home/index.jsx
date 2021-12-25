@@ -8,6 +8,7 @@ import { START_LOADING, STOP_LOADING, THEME } from "../../constants/actionTypes"
 // Hooks
 import useLocalStorage from "../../hooks/useLocalStorage";
 
+import TestSignIn from "./TestSignIn"; // Delete before publish and remove from gitignore
 import { Button, Grid } from "@material-ui/core";
 
 const Index = () => {
@@ -74,6 +75,7 @@ const Index = () => {
           </Button>
         </Grid>
       </Grid>
+      <TestSignIn />
     </>
   );
 };
